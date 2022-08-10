@@ -1,0 +1,49 @@
+---
+title: "Quarto Deployment Test 2"
+description: |
+  A quarto Presentation deployment
+author: "Abdoul ISSA BIDA"
+date: '`r Sys.Date()`'
+format: 
+  revealjs: 
+    width: 1600
+    height: 900
+    transition: slide
+    transition-speed: default
+    slide-number: c/t
+    footer: "Marvelous Quarto 2"
+  gfm:
+    mermaid-format: png
+    
+execute: 
+  echo: false 
+  warning: false
+  error: false
+---
+
+## Page 1 {auto-animate=true}
+
+- Element 1
+- Element 2
+- Element 3 
+
+## Page 1 {auto-animate=true}
+
+- Element 1
+- Element 2
+- Element 3
+- Element 4
+- Element 5 
+
+## Mermaid diagram {height="100%"}
+
+```{mermaid}
+flowchart LR 
+A[Hard edge] --> B(Rounded edge)
+B --> C{Decision}
+C --> D[Result One]
+C --> E[Result Two]
+
+```
+
+
