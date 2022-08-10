@@ -35,6 +35,15 @@ execute:
 - Element 4
 - Element 5 
 
+## Callout 
+
+:::{.callout-note}
+
+## Callout title
+
+A note callout.
+:::
+
 ## Mermaid diagram {height="100%"}
 
 ```{mermaid}
