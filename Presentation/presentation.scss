@@ -1,0 +1,14 @@
+/*-- scss:defaults --*/
+
+// https://www.developerdrive.com/how-to-easily-use-google-fonts-with-sass/
+// Google Fonts
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,500&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Ubuntu:ital,wght@0,500;1,500&display=swap);
+
+// Font Variables
+$ubuntu: 'Ubuntu', serif;   
+$inconsolata: 'Inconsolata', monospace;
+
+$font-family-sans-serif: $ubuntu; 
+$code-font: $inconsolata; 

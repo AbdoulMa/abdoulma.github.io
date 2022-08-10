@@ -3,7 +3,7 @@ title: "Quarto Deployment Test"
 description: |
   A quarto Presentation deployment
 author: "Abdoul ISSA BIDA"
-date: '`r Sys.Date()`'
+date: "`r Sys.Date()`"
 format: 
   revealjs: 
     width: 1600
@@ -12,6 +12,7 @@ format:
     transition-speed: default
     slide-number: c/t
     footer: "Marvelous Quarto"
+    theme: presentation.scss
 ---
 
 ## Page 1
@@ -19,3 +20,20 @@ format:
 ## Page 2
 
 ## Page 3
+
+## Page 4 (Code)
+
+```{r}
+#| label: code-example 
+#| echo: true
+#| fig-cap: !expr glue::glue("There is {nrow(mtcars)} rows in mtcars dataset")
+#| output-location: column-fragment
+#| fig-align: center
+
+library(ggplot2)
+mtcars |> 
+  ggplot(aes(disp, mpg)) + 
+  geom_point() + 
+  geom_smooth(method = "loess")
+```
+
