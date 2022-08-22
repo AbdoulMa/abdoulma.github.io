@@ -54,7 +54,7 @@ C --> E[Result Two]
 
 ```
 
-## {auto-animate=true auto-animate-easing="ease-in-out"}
+## {auto-animate=true auto-animate-easing="ease-in"}
 
 ::: {.r-hstack style="margin-top: 15%;"}
 ::: {.cat data-id="box1" auto-animate-delay="0" style="background: #2780e3; width: 200px; height: 150px;"}
@@ -70,7 +70,7 @@ C3
 :::
 :::
 
-## {auto-animate=true auto-animate-easing="ease-in-out"}
+## {auto-animate=true auto-animate-easing="ease-in"}
 
 ::: {.r-vstack}
 
@@ -90,7 +90,7 @@ C2
 :::
 
 :::{.cat-text width="80%"}
-Let's do it!
+C'mon
 :::
 :::
 
@@ -100,7 +100,7 @@ C3
 :::
 
 :::{.cat-text width="80%"}
-Let's do it!
+Enjoy
 :::
 :::
 
