@@ -12,8 +12,7 @@ format:
     transition-speed: default
     slide-number: c/t
     footer: "Marvelous Quarto 2"
-  gfm:
-    mermaid-format: png
+    css: styles.css
     
 execute: 
   echo: false 
@@ -54,5 +53,65 @@ C --> D[Result One]
 C --> E[Result Two]
 
 ```
+
+## {auto-animate=true auto-animate-easing="ease-in-out"}
+
+::: {.r-hstack style="margin-top: 15%;"}
+::: {.cat data-id="box1" auto-animate-delay="0" style="background: #2780e3; width: 200px; height: 150px;"}
+C1
+::: 
+
+::: {.cat data-id="box2" auto-animate-delay="0.1" style="background: #3fb618; width: 200px; height: 150px;"}
+C2
+:::
+
+::: {.cat data-id="box3" align="center" auto-animate-delay="0.2" style="background: #e83e8c; width: 200px; height: 150px;"}
+C3
+:::
+:::
+
+## {auto-animate=true auto-animate-easing="ease-in-out"}
+
+::: {.r-vstack}
+
+::: {.r-hstack style="margin-top: 5%;"}
+::: {.cat width="20%" data-id="box1" auto-animate-delay="0" style="background: #2780e3; width: 200px; height: 150px;"}
+C1
+:::
+
+:::{.cat-text width="80%"}
+Let's do it!
+:::
+:::
+
+::: {.r-hstack style="margin-top: 5%;"}
+::: {.cat data-id="box2" auto-animate-delay="0.1" style="background: #3fb618; width: 200px; height: 150px;"}
+C2
+:::
+
+:::{.cat-text width="80%"}
+Let's do it!
+:::
+:::
+
+::: {.r-hstack style="margin-top: 5%;"}
+::: {.cat data-id="box3" auto-animate-delay="0.2" style="background: #e83e8c; width: 200px; height: 150px;"}
+C3
+:::
+
+:::{.cat-text width="80%"}
+Let's do it!
+:::
+:::
+
+:::
+
+## Colored Slide 1 {background-color="#F15B27"}
+
+## Colored Slide 2 {background-color="#FCCC0F"}
+
+## Colored Slide 3 {background-color="#B0D784"}
+
+## Colored Slide 4 {background-color="#088143"}
 
 

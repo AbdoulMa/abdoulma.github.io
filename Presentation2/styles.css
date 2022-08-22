@@ -1,0 +1,11 @@
+
+.cat {
+  text-align: center; 
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.cat-text{
+  font-size: 75px;
+}
